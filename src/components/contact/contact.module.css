@@ -1,0 +1,58 @@
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradient background */
+    color: white;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* Social Icons */
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contactIcons a {
+    text-decoration: none;
+}
+
+.contactIcons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.contactIcons img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+
+    .contact h3 {
+        font-size: 1.3rem;
+    }
+
+    .contactIcons img {
+        width: 40px;
+        height: 40px;
+    }
+}

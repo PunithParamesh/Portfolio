@@ -1,0 +1,93 @@
+.projects {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+
+.projects h1 {
+    font-size: 2.5rem;
+    color: #2a5298;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Project Card Styling */
+.projectCard {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.projectCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projectCard h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.projectCard p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.projectCard .skillsUsed {
+    font-weight: bold;
+    color: #2a5298;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.projectButtons {
+    margin-top: 15px;
+}
+
+.projectButton {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background: #2a5298;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.projectButton:hover {
+    background: #1e3c72;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects h1 {
+        font-size: 2rem;
+    }
+
+    .projectCard {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .projectCard h2 {
+        font-size: 1.5rem;
+    }
+
+    .projectButton {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}

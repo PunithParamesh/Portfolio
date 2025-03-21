@@ -1,0 +1,60 @@
+.skills {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+
+.skills h1 {
+    font-size: 2.5rem;
+    color: #2a5298;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skills h4 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 30px;
+}
+
+.skillsList li {
+    background: #2a5298;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.skillsList li:hover {
+    background: #1e3c72;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills h1 {
+        font-size: 2rem;
+    }
+
+    .skills h4 {
+        font-size: 1.3rem;
+    }
+
+    .skillsList li {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
