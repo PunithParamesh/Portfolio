@@ -14,9 +14,10 @@ export default function Projects() {
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                             <button className={styles.projectButton}>GitHub</button>
                         </a>
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        {project.demo?<a href={project.demo} target="_blank" rel="noopener noreferrer">
                             <button className={styles.projectButton}>Live Demo</button>
-                        </a>
+                        </a> :null }
+                        
                     </div>
                 </div>
             ))}

@@ -34,7 +34,7 @@
     font-size: 1rem;
     font-weight: 500;
     color: white;
-    background: #fab38d;
+    background: #ea3e17;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -43,7 +43,7 @@
 }
 
 .connectButton:hover {
-    background: #ff4757;
+    background: #e97269;
     transform: translateY(-3px);
 }
 

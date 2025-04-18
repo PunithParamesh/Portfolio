@@ -1,4 +1,12 @@
 export  const projects=[
+    
+    {
+        title:"Task Manager Application",
+        skills:["React.js", "Express.js", "Mongodb"],
+        desc:" Developed a full-stack Task Manager web application enabling users to perform CRUD operations on personal tasks with real-time updates. Implemented user authentication and authorization using JWT, ensuring secure access with register and login functionality. Built using React.js (frontend), Express.js Node.js (backend), and MongoDB Atlas for database management with RESTful APIs.", 
+        githubLink:"https://github.com/PunithParamesh/taskmanager",
+        demo:"https://taskmanagerfrontend-delta.vercel.app/login"
+    },
     {
         title:"News updates application",
         skills:["Html", "Css", "Javascript"],
@@ -18,6 +26,6 @@ export  const projects=[
         skills:["Node.js, Express.js, MongoDB, JWT"],
         desc:"Developed a comprehensive backend API supporting essential e-commerce features: product listing, addition, filtering,rating, and cart management.Implemented JWT-based user authentication for secure access to signup and login functionalities.Built with Express.js and MongoDB, optimizing data handling and backend performance for scalability.",
         githubLink:"https://github.com/PunithParamesh/EcommerceApi",
-        demo:"https://github.com/PunithParamesh/EcommerceApi"
+        demo:null
     }
 ];
